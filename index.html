@@ -8,13 +8,48 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div class="photo">
-		<img src="img/photo-2.gif">
+	<div class="form">
+		<div class="block">
+			<h1 class="description">Personal Information</h1>
+			<p class="aaa" data-par="1">Personal Information</p>
+				<form class="forms">
+					<p>Surname:<input type="text" name=""></p>
+					<p>Name:<input type="text" name=""></p>
+					<p>How old are You?:<input type="number" name=""></p>
+					<p>Full date of birth:<input type="date" name=""></p>
+					<p>I accept the terms of the agreement<input type="checkbox" name=""></p>
+				</form>
+			<p class="aaa" data-par="2">Registration</p>
+				<form class="forms">
+					<p>E-mail<input type="email" name=""></p>
+					<p>Password<input type="password" name=""></p>
+				</form>
+			<p class="aaa" data-par="3">An interesting fact about you!</p>
+				<form class="forms">
+					<p>Do you love cats?</p>
+						<p><input type="radio" name="cats" value="Yes">Yes</p>
+						<p><input type="radio" name="cats" value="Not">Not</p>
+					<p>What is your favorite color?</p>
+						<input type="color" name="">
+					<p>What time do you go to bed?</p>
+				  		<input type="time" name="">
+					<p>What your favorite brand of cars?</p>
+						<select class="select">
+							<option>BMW</option>
+							<option>Audi</option>
+							<option>Lada</option>
+						</select>
+					<p>How do you rate our work?</p>
+						<input class="slider" type="range" name="">
+				</form>
+			<p class="aaa" data-par="4">Your comments:</p>
+				<form class="forms">
+					<textarea>Comments</textarea><br>
+				</form>
+					<input type="button" value="Submit" name="">
+		</div>
+
 	</div>
-	<div class="info">
-		<h1 class="name">Карпенко Антон</h1>
-		<p class="target">Привет, меня зовут Антон <br>и я хочу стать Front-End разработчиком.</p>	
-	</div>
-	
+
 </body>
 </html>
