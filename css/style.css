@@ -30,6 +30,9 @@ body {
   	color: #ffffff;
   	text-decoration: none;
 }
+.nav > a:hover {
+	color: #50c3af;
+}
 .title {
 	margin-top: 9%;
 	font-size: 5.7vw;
